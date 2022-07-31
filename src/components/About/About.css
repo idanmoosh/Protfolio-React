@@ -1,0 +1,10 @@
+img{
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
