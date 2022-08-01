@@ -1,0 +1,32 @@
+.skillsHeader{
+    text-align: left;
+    font-size: 2rem;
+}
+
+.SkillsContainer{
+    display: flex;
+    width: 70vw;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1rem;
+    border-radius: 10%;
+    width: fit-content;
+    padding: 1rem;
+
+}
+.skillName{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    margin: 0;
+    padding-left: 1rem;
+    width: auto;
+}
+

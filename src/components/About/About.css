@@ -1,10 +1,82 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutText{
+    font-size: 1.5rem;
+}
 img{
     border-radius: 50%;
     width: 20rem;
     height: 20rem;
+    border: 4px solid black;
 }
-section{
-    width: 100%;
+.AboutSection{
+    width: auto;
+    flex-direction: row;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    align-items: center;
+}
+.aboutHeader{
+    font-size: 2rem;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+.aboutSpan{
+   background-image: linear-gradient(
+     -225deg,
+     #66646d 0%,
+     #454249 29%,
+     #eb4a0f 67%,
+     #e1b514 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+ }
+/* Animation */
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #66646d 0%,
+    #454249 29%,
+    #eb4a0f 67%,
+    #e1b514 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
